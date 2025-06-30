@@ -7,9 +7,9 @@ git lfs clone https://github.com/Peter-MacCallum-Cancer-Centre/DEEP-PSMA-Algorit
 
 
 Before running, edit script 00_copy_example_cases_to_input_format.py line to match the appropriate location of the downloaded training data:
-
+'''
 top='../CHALLENGE_DATA' #update to location of training data folder top directory as distributed. Subdirectories per case of the form 'train_XXXX'
-
+'''
 There should now be input image data (*.mha) and json files in the test/input/interf0 subdirectory. 
 
 That will populate the testing input directory with one case of PSMA and FDG image, threshold, organ segmentation, and image registration files in the format and directory structure as they are available on the grand challenge platform. Some explanation of the heirarchy and sample script to read in the relevant input sockets is available in the main inference.py script.
