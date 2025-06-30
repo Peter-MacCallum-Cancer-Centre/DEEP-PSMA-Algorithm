@@ -12,7 +12,7 @@ INPUT_DIR="${SCRIPT_DIR}/test/input"
 OUTPUT_DIR="${SCRIPT_DIR}/test/output"
 
 echo "=+= (Re)build the container"
-#source "${SCRIPT_DIR}/do_build.sh"
+#source "${SCRIPT_DIR}/01_do_build.sh"
 
 cleanup() {
     echo "=+= Cleaning permissions ..."
@@ -89,4 +89,4 @@ run_docker_forward_pass "interf0"
 
 
 
-echo "=+= Save this image for uploading via ./do_save.sh"
+echo "=+= Save this image for uploading via ./03_do_save.sh"
