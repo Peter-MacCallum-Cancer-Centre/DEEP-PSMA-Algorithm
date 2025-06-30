@@ -1,0 +1,176 @@
+[
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "psma-ct-image",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/psma-ct",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "psma-ct-image-organ-segmentation",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/psma-ct-organ-segmentation",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "psma-pet-ga-68",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/psma-pet-ga-68",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": null,
+        "value": 2.999862,
+        "interface": {
+            "slug": "psma-pet-suv-threshold",
+            "kind": "Float",
+            "super_kind": "Value",
+            "relative_path": "psma-pet-suv-threshold.json",
+            "example_value": 2.999862
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "fdg-ct-image",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/fdg-ct",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "fdg-ct-image-organ-segmentation",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/fdg-ct-organ-segmentation",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "fdg-pet",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/fdg-pet",
+            "example_value": null
+        }
+    },
+    {
+        "file": "https://grand-challenge.org/media/some-link/fdg-pet-suv-threshold.json",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "fdg-pet-suv-threshold",
+            "kind": "Float",
+            "super_kind": "File",
+            "relative_path": "fdg-pet-suv-threshold.json",
+            "example_value": 2.999862
+        }
+    },
+    {
+        "file": null,
+        "image": null,
+        "value": {
+            "3d_affine_transform": [
+                [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            ]
+        },
+        "interface": {
+            "slug": "psma-to-fdg-registration",
+            "kind": "Affine transform registration",
+            "super_kind": "Value",
+            "relative_path": "psma-to-fdg-registration.json",
+            "example_value": {
+                "3d_affine_transform": [
+                    [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,7 @@
+nnunetv2
+SimpleITK
+numpy
+scikit-image
+scipy
+pandas
+matplotlib

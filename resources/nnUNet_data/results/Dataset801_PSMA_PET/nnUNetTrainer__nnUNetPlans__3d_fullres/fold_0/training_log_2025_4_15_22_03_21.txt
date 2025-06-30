@@ -1,0 +1,11 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2025-04-15 22:03:21.633194: do_dummy_2d_data_aug: False 
+2025-04-15 22:03:21.704754: Using splits from existing split file: W:\DEEP-PSMA\GTRC_Baseline\nnUNet_data\preprocessed\Dataset801_PSMA_PET\splits_final.json 
+2025-04-15 22:03:21.734500: The split file contains 5 splits. 
+2025-04-15 22:03:21.746516: Desired fold for training: 0 
+2025-04-15 22:03:21.758236: This split has 80 training and 20 validation cases. 
