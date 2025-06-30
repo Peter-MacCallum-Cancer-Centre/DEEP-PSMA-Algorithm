@@ -12,7 +12,7 @@ INPUT_DIR="${SCRIPT_DIR}/test/input"
 OUTPUT_DIR="${SCRIPT_DIR}/test/output"
 
 echo "=+= (Re)build the container"
-source "${SCRIPT_DIR}/do_build.sh"
+#source "${SCRIPT_DIR}/do_build.sh"
 
 cleanup() {
     echo "=+= Cleaning permissions ..."
