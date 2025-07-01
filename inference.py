@@ -99,7 +99,7 @@ def interf0_handler():
     #psma_fixed_transform equivalent to euler 3d transform in case/PSMA/rigid.tfm
 
     #Statements preceding should provide all image/threshold/registration objects as provided in training data.
-    #Modify inference scripts below and create output objects output_psma_ttb_segmentation, output_fdg_ttb_segmentation 
+    #Modify inference scripts below and create output objects output_psma_ttb_label, output_fdg_ttb_label 
     
 
     # Process the inputs: any way you'd like
@@ -128,7 +128,7 @@ def interf0_handler():
                    expansion_radius=7.)
            
    
-    output_psma_ttb_segmentation = sitk.GetArrayFromImage(output_psma_ttb_label)#numpy.eye(4, 2)
+
 
     # Save your output
     write_sitk_image_file(
@@ -141,7 +141,7 @@ def interf0_handler():
                                         suv_threshold=float(input_fdg_pet_suv_threshold),output_fname=False,
                    return_ttb_sitk=True,temp_dir='/output/temp',fold='0',
                    expansion_radius=7.)    
-    output_fdg_ttb_segmentation = sitk.GetArrayFromImage(output_psma_ttb_label)#numpy.eye(4, 2)
+
     write_sitk_image_file(
         location=OUTPUT_PATH / "images/fdg-pet-ttb",
         image=output_fdg_ttb_label,
